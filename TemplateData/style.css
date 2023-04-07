@@ -27,15 +27,19 @@ body {
 }
 
 header {
-    display:flex;
-    align-items: center;
+    width: 100%;
     background: linear-gradient(to bottom, rgb(92, 92, 92), gray);
     color: white;
-    height: 150px;
+    height: 100px;
+    align-items: center;
+    border-bottom: 5px solid rgb(112, 112, 112);
 }
 
 header ul {
-    display: flex;
+    margin-top: 25px;
+    margin-right: 25px;
+    display: inline-flex;
+    float:right;
 }
 
 ul li {
@@ -43,8 +47,14 @@ ul li {
 }
 
 h1 {
+    display: inline-block;
     font-family: 'Saira Stencil One', cursive;
     margin: 15px;
+    transition: 0.3s;
+}
+
+#nav-logo {
+    margin-top: 25px;
     transition: 0.3s;
 }
 
