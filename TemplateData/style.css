@@ -31,6 +31,7 @@ header {
     align-items: center;
     background: linear-gradient(to bottom, rgb(92, 92, 92), gray);
     color: white;
+    height: 150px;
 }
 
 header ul {
@@ -61,4 +62,10 @@ a {
 a:hover {
     text-shadow: 1px 1px 10px white;
     transition: 0.1s;
+}
+
+@media screen and (max-width: 1000px) {
+    header ul {
+        /* display: none; */
+    }
 }
