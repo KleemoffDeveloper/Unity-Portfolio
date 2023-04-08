@@ -12,7 +12,7 @@
 * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
+* [Template](#template-by)
 <!-- * [License](#license) -->
 
 
@@ -42,15 +42,15 @@
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: _in progress_
 
 
 ## Acknowledgements
 Give credit here.
 - This project was inspired by [John Goodman](https://github.com/j-goodman) (My instructor).
-- This project was based on [this website](https://j-goodman.github.io/).
-- Many thanks to...
+- This project was based on <a href="https://j-goodman.github.io/" target="_blank">this website</a>.
+- Resources Used: 
 
 
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+## Template By
+[@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
