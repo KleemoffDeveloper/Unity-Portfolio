@@ -48,7 +48,7 @@ Project is: _in progress_
 ## Acknowledgements
 Give credit here.
 - This project was inspired by [John Goodman](https://github.com/j-goodman) (My instructor).
-- This project was based on <a href="https://j-goodman.github.io/" target="_blank">this website</a>.
+- This project was based on <a href="https://j-goodman.github.io/" target="blank">this website</a>.
 - Resources Used: 
 
 
