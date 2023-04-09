@@ -39,3 +39,4 @@ Project is: _in progress_
 - Resources Used:
 [Color Palette](https://colorhunt.co/palette/3936464f45576d5d6ef4eee0),
 [3D Models/Animation](https://www.mixamo.com/#/),
+[Sprite Editor](https://pixlr.com/x)
