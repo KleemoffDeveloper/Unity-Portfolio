@@ -25,6 +25,29 @@
   </header>
 
   <div id="unity-container" class="unity-desktop">
+    <div class="controls">
+      <h1>Controls</h1>
+      <ul>
+        <li id="movement">
+          <h2>Movement</h2>
+          <br>
+          <p>
+            - Forward: W <br>
+            - Turn Left: A <br>
+            - Backward: S <br>
+            - Turn Right: D <br>
+          </p>
+        </li>
+
+        <li id="options">
+          <h2>Toggle Options</h2>
+          <br>
+          <p>
+            - Open options menu: P <br>
+          </p>
+        </li>
+      </ul>
+    </div>
     <canvas id="unity-canvas" width="960" height="600"></canvas>
     <div id="unity-loading-bar">
       <div id="unity-logo"></div>
@@ -40,10 +63,9 @@
     </div>
   </div>
 
-
-    <div class="controls">
-      <h1>Controls</h1>
-    </div>
+  <div class="info">
+    <!-- <h1>What is this website?</h1> -->
+  </div>
 
   <script>
     var container = document.querySelector("#unity-container");
@@ -90,7 +112,7 @@
       companyName: "SilisKleemoff",
       productName: "Portfolio",
       productVersion: "0.1",
-      showBanner: unityShowBanner,
+      showBanner: null,
     };
 
     // By default Unity keeps WebGL canvas render target size matched with
@@ -108,8 +130,8 @@
     } else {
       // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-      canvas.style.width = "960px";
-      canvas.style.height = "600px";
+      canvas.style.width = `${screen.availWidth/1.4}px`;
+      canvas.style.height = `${screen.availHeight/1.4}px`;
 
       loadingBar.style.display = "block";
 
