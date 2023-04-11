@@ -23,6 +23,7 @@
 - Visual Studio 2022
 - GitHub
 - Visual Studio Code
+- Blender
 
 ## Features
 <!-- - [---](#) -->
@@ -38,5 +39,6 @@ Project is: _in progress_
 - This project was based on <a href="https://j-goodman.github.io/" target="blank">this website</a>.
 - Resources Used:
 [Color Palette](https://colorhunt.co/palette/3936464f45576d5d6ef4eee0),
-[3D Models/Animation](https://www.mixamo.com/#/),
-[Sprite Editor](https://pixlr.com/x)
+[3D Models/Animation](https://www.mixamo.com/#/) --Also [Blender](https://www.blender.org/),
+[Sprite Editor](https://pixlr.com/x),
+[Textures](https://3dtextures.me/)
